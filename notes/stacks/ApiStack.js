@@ -21,6 +21,7 @@ export function ApiStack({ stack, app }) {
       "GET /notes/{id}": "functions/get.main",
       "PUT /notes/{id}": "functions/update.main",
       "DELETE /notes/{id}": "functions/delete.main",
+      "POST /dwcalc": "functions/dwcalc.main",
     },
   });
 
