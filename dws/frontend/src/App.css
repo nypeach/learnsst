@@ -1,0 +1,13 @@
+.App {
+  margin: 0;
+    padding: 0;
+  background-image: linear-gradient(135deg, #ff9e00, #e05f20 25%, #ff3b48 50%, #e52a71 75%, #a500dd);
+  height: calc(100vh);
+}
+
+.ta-header {
+  margin-left: 20px;
+}
+.ta-navbar {
+  margin-right: 20px;
+}
