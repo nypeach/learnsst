@@ -1,5 +1,0 @@
-.sst
-.build
-node_modules
-# environments
-.env*.local
