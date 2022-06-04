@@ -7,7 +7,7 @@ export default function handler(lambda) {
       statusCode = 200;
     } catch (e) {
       console.error(e);
-      bosy = { error: e.message };
+      body = { error: e.message };
       statusCode = 500;
     }
 
