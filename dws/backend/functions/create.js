@@ -2,7 +2,7 @@ import * as uuid from "uuid";
 import handler from "../util/handler";
 import dynamoDb from "../util/dynamodb";
 
-const dynamoDatabase = new AWS.DynamoDB.DocumentClient();
+// const dynamoDatabase = new AWS.DynamoDB.DocumentClient();
 
 export const main = handler(async (event) => {
   const data = JSON.parse(event.body);
